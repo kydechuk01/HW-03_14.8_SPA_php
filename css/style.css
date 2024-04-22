@@ -1,0 +1,199 @@
+
+body {
+    height: 100dvh;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    background-image: url("/images/bg-pink.jpg");
+    background-repeat:repeat-y;
+    background-size:cover;
+    background-position: center; 
+    paddin-bottom: 1rem;   
+}
+
+header {
+    margin-bottom: 0.7rem;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px pink;
+    font-weight: 600;
+    color: rgb(109, 10, 89);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+h1, h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    width: fit-content;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid;
+    color: rgb(213, 19, 200);
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    /* border-bottom: 1px solid silver; */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+.mainContent {
+    margin: 0;
+    padding: 1rem;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    min-height: 5rem;
+    box-shadow: 3px 3px 10px rgba(40, 40, 40, 0.5);
+}
+
+footer {
+    /* border-top: 1px solid grey; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(48, 48, 48);
+}
+
+nav {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+nav a {
+    color: rgb(116, 4, 180);
+}
+
+nav a:hover {
+    color: rgb(225, 4, 96);
+}
+
+.events_cnt {
+    color: blue;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+.error {
+    color: red;
+    font-weight: 500;
+}
+
+form {
+    margin: 0;
+}
+
+.formLogin {   
+    padding: 0.4rem;
+    padding-left: 1rem;
+    margin: 0rem;
+    visibility: inherit;
+    position: static;
+    /*top: 0.5rem;
+    right: 1rem;*/
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px rgb(183, 247, 255);
+    background-color: rgba(255, 189, 231, 0.7);
+    box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.4);
+    font-size: smaller;
+    z-index: 1000;
+}
+.pair {
+    color: red;
+}
+
+.login {
+    min-width: 10rem;
+    background-color: rgb(254, 232, 244);
+    box-shadow: inset 2px 2px 5px rgba(128, 128, 128, 0.4);
+    font-weight: 600;
+}
+
+.btnLogin {
+    background-color: rgb(255, 180, 220);
+    font-weight: 600;
+}
+.login,.btnLogin  {
+    margin: 0.2rem;
+    margin-top: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    
+}
+.srvName {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.srvDescr {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.srvCost {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    background-color: rgb(218, 252, 241);
+}
+
+.tblServices {
+    border: 0;
+    border-spacing: 4px;
+    width: fit-content;
+    margin: 0;
+    padding: 1rem;
+    vertical-align: top;    
+}
+
+TD.tblServices {
+    margin-top: 30px;
+}
+
+TD.tblServices {    
+    padding-left: 1.5rem;
+    vertical-align: top;
+}
+
+
+td {
+    vertical-align: top;
+}
+
+.discount {
+    margin: 1rem;
+    max-width: 60%;
+    padding: 0.9rem;
+    color:white;
+    background-color: rgb(196, 8, 96);
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.noBirthdiscount {
+    margin: 1rem;
+    width: 65%;
+    padding: 0.9rem;
+    color:rgb(92, 44, 56);
+    background-color: rgb(230, 218, 218);
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
