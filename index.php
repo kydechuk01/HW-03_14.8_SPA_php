@@ -1,5 +1,5 @@
 <?php
-
+    
     session_start();
     require 'php/functions.php';
 
@@ -28,8 +28,7 @@
         $loginAttempt = true;
         $loginUser = htmlspecialchars($_POST['login']);
         $loginPass = htmlspecialchars($_POST['password']);
-        $userAuthorized = checkPassword($loginUser, $loginPass);
-        
+        $userAuthorized = checkPassword($loginUser, $loginPass);        
     };
     if ($userAuthorized) {
         // при успешной авторизации устанавливаем куки на 1 сутки

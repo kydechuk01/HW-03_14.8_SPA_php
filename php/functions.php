@@ -18,7 +18,6 @@ function checkLogout()
 function checkPassword($login, $password)
 {
     global $users;
-    
     foreach ($users as $user) {
         if (
             $user['username'] == $login &&
@@ -74,7 +73,6 @@ function headerUserLogged($user)
 // Функция чтения даты рождения пользователя из базы
 function getUserBirth($username) {
     global $dataUsers, $users;
-    // TODO сохранить дату в массив users
     $users = json_decode(file_get_contents($dataUsers), true);
     foreach ($users as &$user) {
         if ($user['username'] === $username) {
@@ -86,7 +84,6 @@ function getUserBirth($username) {
 // Функция сохранения даты рождения пользователя в базе
 function updateUserBirth($date, $username) {
     global $dataUsers, $users, $loginUser;
-    // TODO сохранить дату в массив users
     $users = json_decode(file_get_contents($dataUsers), true);
     foreach ($users as &$user) {
         if ($user['username'] === $username) {
@@ -99,7 +96,6 @@ function updateUserBirth($date, $username) {
 // Функция сохранения времени последнего логина пользователя
 function updateLoginTime($date, $username) {
     global $dataUsers, $users; 
-    // TODO сохранить дату в массив users
     $users = json_decode(file_get_contents($dataUsers), true);
     foreach ($users as &$user) {
         if ($user['username'] === $username) {
